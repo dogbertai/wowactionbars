@@ -1,0 +1,25 @@
+VER 3 010000000000000C "decurse" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,help][]Remove Curse
+END
+VER 3 010000000000000E "keri" "Spell_Druid_stamedingroar"
+My name is Keri. I'm so very fly, oh my, it's a little bit scary.
+END
+VER 3 010000000000000F "keri2" "Ability_Paladin_RighteousVengeance"
+Boys wanna marry, looking at my derrierre, you can stare but if you touch it I'ma bury 
+END
+VER 3 0100000000000010 "keri3" "Spell_Druid_stampedingroar_cat"
+All eyes on me when I walk in, "No question that this girl's a 10." Don't hate me cause I'm beautiful
+END
+VER 3 0100000000000016 "mpoly" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@focus,harm][]Polymorph(Sheep)
+END
+VER 3 0100000000000013 "msteal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,harm][]Spellsteal
+END
+VER 3 0100000000000012 "sumfreeze" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [pet]Freeze;Summon Water Elemental
+END

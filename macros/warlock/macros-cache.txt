@@ -1,0 +1,47 @@
+VER 3 010000000000000C "decurse" "INV_Misc_QuestionMark"
+#showtooltip
+/use [pet:imp,@mouseover,help][pet:imp]Singe Magic;[nopet]Summon Imp
+END
+VER 3 010000000000001C "dismisspet" "132253"
+/petdismiss
+END
+VER 3 010000000000001B "felss" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nopet]Summon Felguard;[pet:felguard,talent:4/2]Soul Strike;[pet,talent:4/3]Summon Vilefiend
+END
+VER 3 010000000000000E "focban" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@focus,harm][]Banish
+END
+VER 3 0100000000000019 "focfear" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@focus,harm][]Fear
+END
+VER 3 0100000000000013 "interrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [pet:felhunter]Spell Lock;[pet:felguard]Axe Toss;[nopet]Summon Felhunter
+END
+VER 3 010000000000001A "petaoe" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [pet:felguard]Felstorm;[pet:voidwalker]Shadow Bulwark;[pet:Succubus]Whiplash;[nopet]Summon Succubus
+END
+VER 3 010000000000001E "t15" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:1/2]Bilescourge Bombers;[talent:1/3]Demonic Strength
+END
+VER 3 0100000000000020 "t25" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:2/2]Power Siphon;[talent:2/3]Doom
+END
+VER 3 010000000000001F "t30" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:3/2]Burning Rush;[talent:3/3]Dark Pact
+END
+VER 3 010000000000001D "t40" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:5/2]Mortal Coil;[talent:5/3]Howl of Terror
+END
+VER 3 0100000000000017 "taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [pet:felhunter]Devour Magic;[pet:voidwalker]Suffering;[pet:felguard]Pursuit;[pet:succubus]Seduction;[nopet]Summon Voidwalker
+END

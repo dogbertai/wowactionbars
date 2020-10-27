@@ -1,0 +1,11 @@
+VER 3 010000000000000C "mblind" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@focus,harm][]Blind
+END
+VER 3 0100000000000011 "mtott" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,raid][raid][@focus,raid][]Tricks of the Trade
+END
+VER 3 010000000000000E "taeeset" "INV_CHEST_LEATHER_09"
+/script ChangeActionBarPage(7);
+END

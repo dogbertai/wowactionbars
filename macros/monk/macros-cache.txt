@@ -1,0 +1,40 @@
+VER 3 010000000000000E "dampen" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [spec:1,talent:5/2][talent:5/1]Healing Elixir;[talent:5/2]Diffuse Magic;[talent:5/3]Dampen Harm;
+END
+VER 3 0100000000000003 "decurse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Detox
+END
+VER 3 010000000000000F "fpara" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@focus,harm][]Paralysis
+END
+VER 3 010000000000000C "mcocoon" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,nodead,help][nodead,help]Life Cocoon
+END
+VER 3 0100000000000008 "menvel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Enveloping Mist
+END
+VER 3 0100000000000006 "mrenew" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Renewing Mist
+END
+VER 3 0100000000000007 "msooth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Soothing Mist
+END
+VER 3 010000000000000A "mvivify" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Vivify
+END
+VER 3 0100000000000002 "mwave" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][]Chi Wave
+END
+VER 3 0100000000000009 "tlust" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Tiger's Lust
+END

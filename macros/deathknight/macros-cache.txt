@@ -1,0 +1,16 @@
+VER 3 010000000000000F "fcontrol" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@focus,harm][]Control Undead
+END
+VER 3 010000000000000C "mgrip" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,harm][]Death Grip
+END
+VER 3 010000000000000D "petgnaw" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [pet]Gnaw;Raise Dead
+END
+VER 3 010000000000000E "pethud" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [pet]Huddle;Raise Dead
+END

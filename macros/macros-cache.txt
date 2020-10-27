@@ -1,0 +1,124 @@
+VER 3 000000000000002A "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Dead Ringer
+END
+VER 3 0000000000000017 "advfocus" "Ability_Creature_Cursed_04"
+/focus [@focus, noexists]
+/target [combat, noexists] focus
+/clearfocus [nocombat, noexists]
+/stopmacro [@focus, noexists]
+/target focus
+/targetlasttarget
+/focus [exists]
+/targetlasttarget
+END
+VER 3 000000000000001B "arhgre" "spell_Shaman_Unleashweapon_Life"
+/arh ag
+END
+VER 3 0000000000000019 "arhred" "spell_Shaman_Unleashweapon_Flame"
+/arh ar
+END
+VER 3 000000000000001A "arhye" "spell_Shaman_Unleashweapon_Earth"
+/arh ay
+END
+VER 3 000000000000000B "avd" "Ability_Creature_Cursed_03"
+/run local b,d,p,r,a=GetBlockChance(),GetDodgeChance(),GetParryChance(),GetCombatRating(CR_DEFENSE_SKILL) a=1/(.0625+.956/(r/122.9625)) ChatFrame1:AddMessage(format("Unhit: %.2f/102.4  Avoid: %.2f  Defense %+.0f rating",b+d+p+5+a,d+p+5+a,r-689))
+END
+VER 3 000000000000000E "bomb" "Ability_Creature_Disease_03"
+/tar Ivory Cloud Serpent
+/use Zan-Tien Lasso
+END
+VER 3 0000000000000005 "ComboMounts" "ABILITY_MOUNT_GOLDENGRYPHON"
+/click LivestockComboButton
+/run C_MountJournal.SummonByID(0)
+END
+VER 3 0000000000000029 "complete" "237383"
+/script SelectGossipAvailableQuest(1)
+/script CompleteQuest()
+/script GetQuestReward()
+/script SelectGossipOption(1)
+/script AcceptQuest()
+END
+VER 3 0000000000000015 "cook" "Ability_Creature_Disease_02"
+/2 Tyra's Hibachi Grill open. Let me cook for you in half the time. I have every |cffffd000|Htrade:51296:450:450:2000000005A4405:2/bv/f7///9fX//7///////////H8/B|h[Cooking]|h|r recipe. Completely free with your ingredients
+END
+VER 3 0000000000000020 "Critters" "INV_Box_Birdcage_01"
+/run if GetMouseButtonClicked() == 'RightButton' then Livestock.DismissCritter() else Livestock.PickCritter() end
+END
+VER 3 000000000000001E "female" "Spell_Holy_SealOfSacrifice"
+/run local a,n,r,c,x=2422 for i=1,GetAchievementNumCriteria(a)do n,r,_,c=UnitName("target"),GetAchievementCriteriaInfo(a,i)if n and not c and UnitRace("target")==r then print(n,"is"..(UnitSex("target")~=3 and " NOT"or"").." female!")end end
+END
+VER 3 000000000000001F "ggggggg" "SPELL_HOLY_CHAMPIONSBOND"
+/click CompactUnitFrameProfilesGeneralOptionsFrameUseClassColors
+/click CompactUnitFrameProfilesGeneralOptionsFrameUseClassColors
+END
+VER 3 0000000000000024 "gold" "INV_MISC_QUESTIONMARK"
+/run BuyMerchantItem(27)
+/use Smuggled Sack of Gold
+END
+VER 3 0000000000000016 "grecruit" "Ability_Creature_Cursed_02"
+Don't play often? <Priestesses of Elune> is a casual levelling/heroics guild and would love to have you. ALL classes welcome. PST.
+END
+VER 3 0000000000000023 "hstone" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Healthstone
+/use Coastal Healing Potion
+/use Healing Tonic
+/use Master Healing Potion
+/use Mythical Healing Potion
+/use Runic Healing Injector
+END
+VER 3 0000000000000006 "LandMounts" "Ability_Mount_RidingHorse"
+/click LivestockLandMountsButton
+END
+VER 3 0000000000000027 "magefood" "134029"
+#showtooltip Conjured Mana Bun
+/use Conjured Mana Fritter
+/use Conjured Mana Pudding
+/use Conjured Mana Bun
+END
+VER 3 0000000000000021 "mnaaru" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Gift of the Naaru
+END
+VER 3 0000000000000002 "Mount" "Ability_Hunter_BeastTraining"
+/run CallCompanion("MOUNT", random(GetNumCompanions("MOUNT")))
+END
+VER 3 0000000000000001 "Pet" "Ability_Hunter_BeastCall"
+/run CallCompanion("CRITTER", random(GetNumCompanions("CRITTER")))
+END
+VER 3 0000000000000025 "petabi4" "INV_MISC_QUESTIONMARK"
+/click PetActionButton4
+END
+VER 3 0000000000000026 "petabi5" "INV_MISC_QUESTIONMARK"
+/click PetActionButton5
+END
+VER 3 0000000000000011 "prof" "Ability_Creature_Disease_03"
+/script SendChatMessage(select(2,GetSpellLink("Tailoring"))..select(2,GetSpellLink("Enchanting")),"CHANNEL",nil,GetChannelName("Trade - City"));
+END
+VER 3 0000000000000022 "quest" "133735"
+/target [@mouseover]
+/click WatchFrameItem1
+/click WatchFrameItem2
+/click WatchFrameItem3
+/click WatchFrameItem4
+/click WatchFrameItem5
+/click WatchFrameItem6
+END
+VER 3 0000000000000010 "rang" "INV_Misc_QuestionMark"
+#showtooltip [equipped:thrown]Throw;[equipped:wands]Shoot;Fishing
+/use [equipped:thrown]Throw;[equipped:wands]Shoot;Fishing
+END
+VER 3 0000000000000028 "spiritpres" "INV_MISC_QUESTIONMARK"
+#showtooltip Concentrated Flame
+/use [@mouseover,help][] Spirit of Preservation
+/use [@mouseover,help][] Concentrated Flame
+END
+VER 3 0000000000000018 "t" "Ability_Creature_Cursed_03"
+/tar Ivory Cloud Serpent
+/use Zan-Tien Lasso
+END
+VER 3 000000000000001C "u" "Ability_Creature_Cursed_05"
+/archy stealth
+/arh h
+END

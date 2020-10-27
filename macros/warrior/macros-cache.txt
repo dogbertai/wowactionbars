@@ -1,0 +1,8 @@
+VER 3 010000000000000C "decurse" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,help]Intercept
+END
+VER 3 0100000000000013 "inter" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [harm]Intercept
+END

@@ -1,0 +1,16 @@
+VER 3 010000000000000C "decurse" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,harm][]Tranquilizing Shot
+END
+VER 3 0100000000000012 "mcall" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][@targettarget,help][help][@player]Master's Call
+END
+VER 3 010000000000000D "misdir" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,raid][raid][@focus,raid][@pet,exists][]Misdirection
+END
+VER 3 0100000000000011 "rsac" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][@targettarget,help][help][@player]Roar of Sacrifice
+END

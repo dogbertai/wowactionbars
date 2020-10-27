@@ -1,0 +1,53 @@
+VER 3 010000000000000C "decurse" "INV_Misc_QuestionMark"
+#showtooltip
+/use [spec:4,@mouseover,help][spec:4]Nature's Cure;[@mouseover,help][]Remove Corruption
+END
+VER 3 010000000000000E "fochib" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@focus,harm][]Hibernate
+END
+VER 3 010000000000001D "mcharge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][]Wild Charge
+/stopspelltarget
+END
+VER 3 010000000000001C "miron" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Ironbark
+END
+VER 3 0100000000000014 "mlife" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Lifebloom
+END
+VER 3 0100000000000015 "mregrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Regrowth
+END
+VER 3 0100000000000013 "mrejuv" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Rejuvenation
+END
+VER 3 0100000000000019 "mswift" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Swiftmend
+END
+VER 3 010000000000001F "mward" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Cenarion Ward
+END
+VER 3 0100000000000018 "mwild" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Wild Growth
+END
+VER 3 010000000000000F "rev" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nocombat] Revive
+/stopmacro [nocombat]
+/use Rebirth
+/ra Rebirth on %t
+END
+VER 3 010000000000001E "test2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelform [@mouseover,help][help]
+/use [@mouseover,help][help]Wild Charge
+END

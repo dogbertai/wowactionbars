@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "fimprison" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@focus,harm][]Imprison
+END

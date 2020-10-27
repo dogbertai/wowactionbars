@@ -1,0 +1,32 @@
+VER 3 010000000000000C "decurse" "INV_Misc_QuestionMark"
+#showtooltip
+/use [spec:3,@mouseover,help][spec:3]Purify Spirit;[@mouseover,help][]Cleanse Spirit
+END
+VER 3 0100000000000011 "fochex" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@focus,harm][]Hex
+END
+VER 3 0100000000000013 "mchain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Chain Heal
+END
+VER 3 0100000000000016 "mheal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Healing Wave
+END
+VER 3 0100000000000015 "mrip" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Riptide
+END
+VER 3 010000000000001A "mshield" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Earth Shield
+END
+VER 3 0100000000000012 "msurge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Healing Surge
+END
+VER 3 0100000000000018 "munleash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Unleash Life
+END

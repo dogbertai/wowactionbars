@@ -1,0 +1,53 @@
+VER 3 010000000000000C "decurse" "INV_Misc_QuestionMark"
+#showtooltip
+/use [spec:1,@mouseover,help][spec:1]Cleanse;[spec:2/3,@mouseover,help][]Cleanse Toxins
+END
+VER 3 010000000000000D "focrep" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@focus,harm][]Repentance
+END
+VER 3 0100000000000015 "hsalv" "INV_MISC_QUESTIONMARK"
+#showtooltip Blessing of Salvation
+/use [@mouseover,raid][raid][@targettarget,raid]Blessing of Salvation
+END
+VER 3 010000000000001A "mbeac" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Beacon of Light
+END
+VER 3 010000000000001B "mbestow" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Bestow Faith
+END
+VER 3 0100000000000012 "mflash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Flash of Light
+END
+VER 3 0100000000000018 "mfree" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][help][@player]Blessing of Freedom
+END
+VER 3 0100000000000014 "mholy" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [spec:1,@mouseover,help][spec:1]Holy Light;[@mouseover,help][]Word of Glory
+END
+VER 3 0100000000000019 "mmartyr" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Light of the Martyr
+/stopspelltarget
+END
+VER 3 0100000000000016 "mprism" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][]Holy Prism
+END
+VER 3 0100000000000011 "mshock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][help]Holy Shock
+END
+VER 3 0100000000000017 "selfprism" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@player] Holy Prism
+END
+VER 3 0100000000000002 "shock" "INV_Misc_QuestionMark"
+#showtooltip
+/use [harm][@targettarget,harm]Holy Shock
+END

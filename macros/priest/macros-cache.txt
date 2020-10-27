@@ -1,0 +1,61 @@
+VER 3 010000000000000C "decurse" "INV_Misc_QuestionMark"
+#showtooltip
+/use [spec:3,@mouseover,help][spec:3]Purify Disease;[@mouseover,help][]Purify
+END
+VER 3 010000000000000E "focmc" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@focus,harm][]Mind Control
+END
+VER 3 010000000000000F "focsh" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@focus,harm][]Shackle Undead
+END
+VER 3 010000000000000D "gspirit" "INV_Misc_QuestionMark"
+#showtooltip
+/use [spec:2,@mouseover,nodead,help][spec:2,nodead,help]Guardian Spirit;[@mouseover,nodead,help][nodead,help]Pain Suppression
+END
+VER 3 0100000000000028 "harmpen" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [harm]Penance
+END
+VER 3 0100000000000010 "hword" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Holy Word: Serenity
+END
+VER 3 0100000000000017 "mbind" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Binding Heal
+/stopspelltarget
+END
+VER 3 0100000000000016 "mcircle" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [spec:2,@mouseover,help][spec:2]Circle of Healing;[@mouseover,help][]Shadow Covenant
+END
+VER 3 0100000000000013 "mflash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [spec:2,@mouseover,help][spec:2]Flash Heal;[@mouseover,help][]Shadow Mend
+END
+VER 3 0100000000000018 "mheal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [spec:2,@mouseover,help][spec:2]Heal
+END
+VER 3 0100000000000024 "mleap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Leap of Faith
+END
+VER 3 0100000000000027 "mpoh" "INV_Misc_QuestionMark"
+#showtooltip
+/use [spec:2,@mouseover,help][spec:2]Prayer of Healing;[@mouseover,help][]Power Word: Radiance
+END
+VER 3 010000000000001A "mpom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [spec:2,@mouseover,help][spec:2]Prayer of Mending;[@mouseover,help][help]Penance
+END
+VER 3 0100000000000019 "mpws" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [spec:2,@mouseover,help][spec:2]Renew;[@mouseover,help][]Power Word: Shield
+END
+VER 3 0100000000000026 "mshine" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,help][]Shining Force
+END
