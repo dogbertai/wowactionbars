@@ -4,6 +4,8 @@ import os
 import shutil
 
 masterfolder = 'macros'
+
+# Your WoW Account folder
 basefolder = r'C:\Program Files (x86)\World of Warcraft\_retail_\WTF\Account\DOGBERTAI'
 
 classdict = {

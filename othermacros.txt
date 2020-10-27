@@ -1,0 +1,51 @@
+VER 3 0100000000000001 "bshield" "INV_Misc_QuestionMark"
+#showtooltip Bone Shield
+/use Blood Tap
+/use Bone Shield
+END
+VER 3 010000000000000B "lich" "INV_Misc_QuestionMark"
+#showtooltip
+/use Lichborne
+/use [@player]Death Coil
+END
+VER 3 0100000000000006 "petcoil" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@pet][]Death Coil
+END
+VER 3 0100000000000001 "meta" "INV_Misc_QuestionMark"
+#showtooltip
+/use [stance:0] Metamorphosis
+/use [modifier:alt] Demon Leap(Metamorphosis)
+/use Immolation Aura(Metamorphosis)
+/startattack
+END
+VER 3 0100000000000015 "fblast" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use Fire Blast
+END
+VER 3 0100000000000011 "shieldwall" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/equipset SwordBoard
+/use Shield Wall
+END
+VER 3 010000000000000F "ttaunt" "INV_Misc_QuestionMark"
+#showtooltip
+/use [mod:shift,raid][@targettarget,mod:shift,raid] Intervene;Taunt
+END
+VER 3 0100000000000010 "killstop" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/stopcasting
+/use Kill Shot
+END
+VER 3 010000000000001A "commune" "INV_MISC_QUESTIONMARK"
+#showtooltip Astral Communion
+/stopcasting [channeling:Astral Communion]
+/use [nochanneling:Astral Communion]Astral Communion
+END
+VER 3 0100000000000003 "instHT" "INV_Misc_QuestionMark"
+#showtooltip Healing Touch
+/use Nature's Swiftness
+/use Healing Touch
+END
