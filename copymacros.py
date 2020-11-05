@@ -1,29 +1,14 @@
 #!/usr/bin/env python
 
+import json
 import os
 import shutil
 
+
 masterfolder = 'macros'
 
-# Your WoW Account folder
-basefolder = r'C:\Program Files (x86)\World of Warcraft\_retail_\WTF\Account\DOGBERTAI'
 
-classdict = {
-    'deathknight' : ['Mannoroth/Chaundrea'],
-    'demonhunter' : ['Wyrmrest Accord/Mykessa'],
-    'druid' : ['Mannoroth/Tifaña'],
-    'hunter' : ['Mannoroth/Tessica'],
-    'mage' : ['Mannoroth/Kerilynn'],
-    'monk' : ['Mannoroth/Meilani'],
-    'paladin' : ['Mannoroth/Kydesha'],
-    'priest' : ['Mannoroth/Tyra'],
-    'rogue' : ['Mannoroth/Serelena'],
-    'shaman' : ['Mannoroth/Gothan'],
-    'warlock' : ['Mannoroth/Kalana'],
-    'warrior' : ['Mannoroth/Keyra'],
-}
-
-def copy_to_wtf():
+def copy_to_wtf(basefolder, classdict):
     src = os.path.join(masterfolder, 'macros-cache.txt')
     dst = os.path.join(basefolder)
     shutil.copy(src, dst)
@@ -36,7 +21,7 @@ def copy_to_wtf():
             shutil.copy(src, dst)
 
 
-def copy_to_master():
+def copy_to_master(basefolder, classdict):
     src = os.path.join(basefolder, 'macros-cache.txt')
     dst = os.path.join(masterfolder)
     shutil.copy(src, dst)
@@ -52,5 +37,22 @@ def copy_to_master():
             break
 
 
+def load_json(path):
+    with open(path, encoding='utf-8') as f:
+        result = json.load(f)
+    return (result['path'], result['chars'])
+
+
+def main():
+    retaildictpath = 'retaildict.json'
+    retaildata = load_json(retaildictpath)
+    ptrdictpath = 'ptrdict.json'
+    ptrdata = load_json(ptrdictpath)
+    #copy_to_master(*retaildata)
+    copy_to_master(*ptrdata)
+    #copy_to_wtf(*ptrdata)
+    #copy_to_wtf(*retaildata)
+
+
 if __name__ == "__main__":
-    copy_to_master()
+    main()

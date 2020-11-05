@@ -23,3 +23,15 @@ VER 3 0100000000000012 "sumfreeze" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [pet]Freeze;Summon Water Elemental
 END
+VER 3 0100000000000017 "t30" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,talent:3/2][help,talent:3/2]Focus Magic;Rune of Power
+END
+VER 3 0100000000000018 "t45" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:6/2]Arcane Orb;Supernova
+END
+VER 3 0100000000000019 "t50" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:7/2]Ray of Frost;Glacial Spike
+END

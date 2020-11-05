@@ -1,0 +1,42 @@
+{
+    "path": "C:\\Program Files (x86)\\World of Warcraft\\_retail_\\WTF\\Account\\USERNAME",
+    "chars": {
+        "deathknight": [
+            "Realm/Character"
+        ],
+        "demonhunter": [
+            "Realm/Character"
+        ],
+        "druid": [
+            "Realm/Character"
+        ],
+        "hunter": [
+            "Realm/Character",
+            "Realm/Secondchar"
+        ],
+        "mage": [
+            "Realm/Character"
+        ],
+        "monk": [
+            "Realm/Character"
+        ],
+        "paladin": [
+            "Realm/Character"
+        ],
+        "priest": [
+            "Realm/Character"
+        ],
+        "rogue": [
+            "Realm/Character"
+        ],
+        "shaman": [
+            "Realm/Character"
+        ],
+        "warlock": [
+            "Realm/Character"
+        ],
+        "warrior": [
+            "Realm/Character"
+        ]
+    }
+}

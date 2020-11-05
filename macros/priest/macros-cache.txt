@@ -59,3 +59,11 @@ VER 3 0100000000000026 "mshine" "INV_Misc_QuestionMark"
 #showtooltip
 /use [@mouseover,help][]Shining Force
 END
+VER 3 0100000000000029 "t45" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:6/2]Divine Star;[talent:6/3]Halo
+END
+VER 3 010000000000002A "t50" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:7/2]Apotheosis;[talent:7/3]Holy Word: Salvation
+END

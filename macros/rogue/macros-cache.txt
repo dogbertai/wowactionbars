@@ -6,6 +6,10 @@ VER 3 0100000000000011 "mtott" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,raid][raid][@focus,raid][]Tricks of the Trade
 END
+VER 3 0100000000000012 "t50" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [spec:2,talent:7/2]Blade Rush;[spec:2]Killing Spree;[spec:3,talent:7/2]Secret Technique;[spec:3]Shuriken Tornado
+END
 VER 3 010000000000000E "taeeset" "INV_CHEST_LEATHER_09"
 /script ChangeActionBarPage(7);
 END

@@ -1,8 +1,12 @@
 VER 3 010000000000000C "decurse" "INV_Misc_QuestionMark"
 #showtooltip
-/use [@mouseover,help]Intercept
+/use [@mouseover,help]Intervene
 END
 VER 3 0100000000000013 "inter" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [harm]Intercept
+END
+VER 3 0100000000000014 "t45" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:6/2]Avatar;Deadly Calm
 END

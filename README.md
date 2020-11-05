@@ -59,9 +59,9 @@ I have auto attack on my bars because I play on a PVP server, and it's important
     ctrl  F1 arena F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12
     shift F1 pet   F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12
     nomod F1 party F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12
-    `          1 potion    2 extra  3 rez    4 br1   5 br4   6 br7
-    ` setfocus 1 slow      2 trink  3 r24    4 heal  5 bl4   6 bl7
-    ` focus    1 slow      2 r22    3 r25    4 ab1   5 ab4   6 inter
+    `          1 potion    2 extra  3 rez    4 br1   5 br4   6 br7      7 r26
+    ` setfocus 1 slow      2 trink  3 r24    4 heal  5 bl4   6 bl7      7 r27
+    ` focus    1 slow      2 r22    3 r25    4 ab1   5 ab4   6 inter    7 r28
     Tab last   Q cc        W left   E right  R br2   T br5   Y br8      U        I     O        P
     Tab last   Q cure      W left   E right  R bl2   T bl5   Y bl8      U stats  I pvp O guild  P prof
     Tab assist Q dispel    W left   E right  R ab2   T aoe   Y taunt    U achiev I lfg O social P book

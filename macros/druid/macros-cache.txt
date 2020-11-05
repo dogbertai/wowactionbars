@@ -6,9 +6,14 @@ VER 3 010000000000000E "fochib" "INV_Misc_QuestionMark"
 #showtooltip
 /use [@focus,harm][]Hibernate
 END
+VER 3 010000000000001E "helpcharge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelform [@mouseover,help][help]
+/use [@mouseover,help][help]Wild Charge
+END
 VER 3 010000000000001D "mcharge" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [@mouseover,exists][]Wild Charge
+/use [talent:2/2]Renewal;[@mouseover,exists][]Wild Charge
 /stopspelltarget
 END
 VER 3 010000000000001C "miron" "INV_MISC_QUESTIONMARK"
@@ -33,7 +38,7 @@ VER 3 0100000000000019 "mswift" "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000001F "mward" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [@mouseover,help][]Cenarion Ward
+/use [talent:1/3,@mouseover,help][talent:1/3]Cenarion Ward;[talent:1/2,@mouseover,help][talent:1/2]Nourish
 END
 VER 3 0100000000000018 "mwild" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -46,8 +51,15 @@ VER 3 010000000000000F "rev" "INV_MISC_QUESTIONMARK"
 /use Rebirth
 /ra Rebirth on %t
 END
-VER 3 010000000000001E "test2" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000021 "t15" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cancelform [@mouseover,help][help]
-/use [@mouseover,help][help]Wild Charge
+/use [talent:1/2]Warrior of Elune;[talent:1/3]Force of Nature
+END
+VER 3 0100000000000020 "t30" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nospec:1,talent:3/1]Typhoon;[spec:1,talent:3/1][spec:3/4,talent:3/2]Maim;[spec:1/2,talent:3/2][spec:4,talent:3/3]Incapacitating Roar;[nospec:4,talent:3/3]Ursol's Vortex
+END
+VER 3 0100000000000022 "t50" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:7/2]Fury of Elune;[talent:7/3]New Moon
 END

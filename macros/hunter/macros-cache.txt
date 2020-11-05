@@ -14,3 +14,15 @@ VER 3 0100000000000011 "rsac" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help][@targettarget,help][help][@player]Roar of Sacrifice
 END
+VER 3 0100000000000013 "t25" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:2/2]Barrage;Explosive Shot
+END
+VER 3 0100000000000015 "t35" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:4/2]Steel Trap;A Murder of Crows
+END
+VER 3 0100000000000014 "t45" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:6/2]Barrage;Stampede
+END

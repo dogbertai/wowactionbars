@@ -4,7 +4,7 @@ VER 3 010000000000000C "decurse" "INV_Misc_QuestionMark"
 END
 VER 3 010000000000000D "focrep" "INV_Misc_QuestionMark"
 #showtooltip
-/use [@focus,harm][]Repentance
+/use [@focus,harm,talent:3/2][talent:3/2]Repentance;Blinding Light
 END
 VER 3 0100000000000015 "hsalv" "INV_MISC_QUESTIONMARK"
 #showtooltip Blessing of Salvation
@@ -16,7 +16,7 @@ VER 3 010000000000001A "mbeac" "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000001B "mbestow" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [@mouseover,help][]Bestow Faith
+/use [@mouseover,help,talent:1/2][talent:1/2]Bestow Faith;Light's Hammer
 END
 VER 3 0100000000000012 "mflash" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -50,4 +50,8 @@ END
 VER 3 0100000000000002 "shock" "INV_Misc_QuestionMark"
 #showtooltip
 /use [harm][@targettarget,harm]Holy Shock
+END
+VER 3 010000000000001C "t40" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:5/2]Holy Avenger;Seraphim
 END

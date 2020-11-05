@@ -30,3 +30,23 @@ VER 3 0100000000000018 "munleash" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help][]Unleash Life
 END
+VER 3 010000000000001F "t25" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:2/2]Echoing Shock;Elemental Blast
+END
+VER 3 010000000000001C "t35" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:4/2]Earthen Wall Totem;Ancestral Protection Totem
+END
+VER 3 010000000000001D "t40" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [spec:1,talent:5/2]Ancestral Guidance;[spec:2,talent:5/2]Feral Lunge;Wind Rush Totem
+END
+VER 3 010000000000001E "t45" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:6/2]Stormkeeper;Sundering
+END
+VER 3 010000000000001B "t50" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [spec:1,talent:7/2]Stormkeeper;[spec:2,talent:7/2]Earthen Spike;[spec:3,talent:7/2]Wellspring;Ascendance
+END
