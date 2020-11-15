@@ -34,6 +34,14 @@ VER 3 0100000000000002 "mwave" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [talent:1/2,@mouseover,exists][talent:1/2]Chi Wave;Chi Burst
 END
+VER 3 0100000000000010 "t35" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:4/2]Song of Chi-Ji;Ring of Peace
+END
+VER 3 0100000000000011 "t45" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:6/1]Summon Jade Serpent Statue;Refreshing Jade Wind
+END
 VER 3 0100000000000009 "tlust" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help][]Tiger's Lust
