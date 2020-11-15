@@ -30,7 +30,7 @@ I use ctrl for all spells on the Bottom Right bar. I try to put important cooldo
 
 Numbers next to spells are talents and their level.
 
-H next to spells are PVP spells. This still needs work.
+H next to spells are PVP spells.
 
 Orange spells are interchangeable across the talent row.
 
@@ -40,7 +40,7 @@ The bottom half can be ignored. It is just a way for me to categorize spells.
 
 This doesn't show macros.
 
-For me, all ally targeted spells are mouseover macroed.
+All ally targeted spells are mouseover macroed.
 
 Some summon spells are macroed to pet abilities when already summoned. e.g. Felhunter and Spell Lock.
 
@@ -48,34 +48,34 @@ Penance, Holy Shock, Intercept are slotted twice. One is a macro that only targe
 
 The class with the most abilities is Druid because of the forms. However, the stance bars make it easier to manage.
 
-After the other bars are enabled, the primary bar has arrows to switch to yet one last bar (AB2). In there I have random stuff like archaelogy and professions.
+After the other bars are enabled, the primary bar has arrows to switch to yet one last bar (AB2). In there I have random stuff like archaelogy, fishing, and professions.
 
-If you use Bartender, I would put at least 3 action bars on top of each other corresponding to the first 3 bars.
+If you use [Bartender4](https://www.curseforge.com/wow/addons/bartender4) or [Dominos](https://www.curseforge.com/wow/addons/dominos), I would put at least 3 action bars on top of each other corresponding to the first 3 bars.
 
 I have auto attack on my bars because I play on a PVP server, and it's important to know if you're gonna attack someone with guards around.
 
 ### My bindings
-
-    ctrl  F1 arena F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12
-    shift F1 pet   F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12
-    nomod F1 party F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12
-    `          1 potion    2 extra  3 rez    4 br1   5 br4   6 br7      7 r26
-    ` setfocus 1 slow      2 trink  3 r24    4 heal  5 bl4   6 bl7      7 r27
-    ` focus    1 slow      2 r22    3 r25    4 ab1   5 ab4   6 inter    7 r28
-    Tab last   Q cc        W left   E right  R br2   T br5   Y br8      U        I     O        P
-    Tab last   Q cure      W left   E right  R bl2   T bl5   Y bl8      U stats  I pvp O guild  P prof
-    Tab assist Q dispel    W left   E right  R ab2   T aoe   Y taunt    U achiev I lfg O social P book
-    Caps       A interact  S sound  D fps    F br3   G br6   H selfheal J        K         L
-    Caps       A sheath    S opie   D opie   F bl3   G bl6   H bl9      J talent K         L guide
-    Caps       A sit       S opie   D opie   F ab3   G ab6   H ab9      J char   K collect L quest
-    Shift      Z petmove   X bag    C walk   V backward B land N racial M music , . nameplate / slash
-    Shift      Z petfollow X bag    C follow V backward B fly  N move   M zone  , . nameplate / slash
-    Shift      Z petattack X bag    C run    V backward B jump N speed  M map   , .           / slash
-    Ctrl Alt Space forward MWUp zoomin     MWDn zoomout
-    Ctrl Alt Space forward MWUp prevfriend MWDn nextfriend
-    Ctrl Alt Space forward MWUp prevenemy  MWDn nextenemy
-    M1 M2 M3 run M4 shift M5 ctrl M10 voice
-
+```
+ctrl  F1 arena F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12
+shift F1 pet   F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12
+nomod F1 party F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12
+`          1 cc        2 extra  3 rez    4 br1   5 br4   6 br7      7 r26
+` setfocus 1 slow      2 trink  3 buff   4 heal  5 bl4   6 bl7      7 r27
+` focus    1 slow      2 r22    3 r25    4 ab1   5 ab4   6 inter    7 r28
+Tab last   Q potion    W left   E right  R br2   T br5   Y br8      U        I     O        P
+Tab last   Q cure      W left   E right  R bl2   T bl5   Y bl8      U stats  I pvp O guild  P prof
+Tab assist Q dispel    W left   E right  R ab2   T aoe   Y taunt    U achiev I lfg O social P book
+Caps       A interact  S sound  D fps    F br3   G br6   H selfheal J        K         L
+Caps       A sheath    S opie   D opie   F bl3   G bl6   H bl9      J talent K         L guide
+Caps       A sit       S opie   D opie   F ab3   G ab6   H ab9      J char   K collect L quest
+Shift      Z petmove   X bag    C walk   V backward B land N racial M music , . nameplate / slash
+Shift      Z petfollow X bag    C follow V backward B fly  N move   M zone  , . nameplate / slash
+Shift      Z petattack X bag    C run    V backward B jump N speed  M map   , .           / slash
+Ctrl Alt Space forward MWUp zoomin     MWDn zoomout
+Ctrl Alt Space forward MWUp prevfriend MWDn nextfriend
+Ctrl Alt Space forward MWUp prevenemy  MWDn nextenemy
+M1 M2 M3 run M4 shift M5 ctrl M10 voice
+```
 * Ring finger is dedicated to strafe left.
 * Middle finger is dedicated to strafe right.
 * Thumb is used to run forward.
@@ -84,7 +84,7 @@ I have auto attack on my bars because I play on a PVP server, and it's important
     * This allows all abilities to be activated while constantly moving in any direction.
 * I use two mouse thumb buttons for Shift and Ctrl.
 
-[OPie](https://wow.curseforge.com/projects/opie) is a radial action-binding addon. I use it for mage portals, raid markers, etc.
+[OPie](https://www.curseforge.com/wow/addons/opie) is a radial action-binding addon. I use it for mage portals, raid markers, etc.
 
 ### How to use bindings
 
@@ -102,6 +102,7 @@ I have auto attack on my bars because I play on a PVP server, and it's important
 6. Save
 7. Edit .htm file in text editor
 8. Add these lines after `<meta>`
-
-       <script>var whTooltips = {colorLinks: false, iconizeLinks: true, renameLinks: false, iconSize: 'medium'};</script>
-       <script src="https://wow.zamimg.com/widgets/power.js"></script>
+    ```
+    <script>var whTooltips = {colorLinks: false, iconizeLinks: true, renameLinks: false, iconSize: 'medium'};</script>
+    <script src="https://wow.zamimg.com/widgets/power.js"></script>
+    ```

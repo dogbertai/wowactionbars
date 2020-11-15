@@ -16,11 +16,11 @@ VER 3 010000000000000D "gspirit" "INV_Misc_QuestionMark"
 END
 VER 3 0100000000000028 "harmpen" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [harm]Penance
+/use [harm][@targettarget,harm]Penance
 END
 VER 3 0100000000000010 "hword" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [@mouseover,help][]Holy Word: Serenity
+/use [spec:2,@mouseover,help][spec:2]Holy Word: Serenity;[@mouseover,help][]Rapture
 END
 VER 3 0100000000000017 "mbind" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -37,7 +37,7 @@ VER 3 0100000000000013 "mflash" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000018 "mheal" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [spec:2,@mouseover,help][spec:2]Heal
+/use [@mouseover,help][]Heal
 END
 VER 3 0100000000000024 "mleap" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -49,7 +49,7 @@ VER 3 0100000000000027 "mpoh" "INV_Misc_QuestionMark"
 END
 VER 3 010000000000001A "mpom" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [spec:2,@mouseover,help][spec:2]Prayer of Mending;[@mouseover,help][help]Penance
+/use [spec:2,@mouseover,help][spec:2]Prayer of Mending;[@mouseover,help][help][@player]Penance
 END
 VER 3 0100000000000019 "mpws" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -61,9 +61,9 @@ VER 3 0100000000000026 "mshine" "INV_Misc_QuestionMark"
 END
 VER 3 0100000000000029 "t45" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [talent:6/2]Divine Star;[talent:6/3]Halo
+/use [talent:6/2]Divine Star;Halo
 END
 VER 3 010000000000002A "t50" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [talent:7/2]Apotheosis;[talent:7/3]Holy Word: Salvation
+/use [talent:7/2]Apotheosis;Holy Word: Salvation
 END

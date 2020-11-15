@@ -32,7 +32,7 @@ VER 3 010000000000000A "mvivify" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000002 "mwave" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [talent:1/2,@mouseover,exists][talent:1/2]Chi Wave;[talent:1/3]Chi Burst
+/use [talent:1/2,@mouseover,exists][talent:1/2]Chi Wave;Chi Burst
 END
 VER 3 0100000000000009 "tlust" "INV_MISC_QUESTIONMARK"
 #showtooltip

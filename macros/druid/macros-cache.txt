@@ -38,7 +38,7 @@ VER 3 0100000000000019 "mswift" "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000001F "mward" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [talent:1/3,@mouseover,help][talent:1/3]Cenarion Ward;[talent:1/2,@mouseover,help][talent:1/2]Nourish
+/use [talent:1/3,@mouseover,help][talent:1/3]Cenarion Ward;[@mouseover,help][]Nourish
 END
 VER 3 0100000000000018 "mwild" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -53,7 +53,7 @@ VER 3 010000000000000F "rev" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000021 "t15" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [talent:1/2]Warrior of Elune;[talent:1/3]Force of Nature
+/use [talent:1/2]Warrior of Elune;Force of Nature
 END
 VER 3 0100000000000020 "t30" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -61,5 +61,5 @@ VER 3 0100000000000020 "t30" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000022 "t50" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [talent:7/2]Fury of Elune;[talent:7/3]New Moon
+/use [talent:7/2]Fury of Elune;New Moon
 END
