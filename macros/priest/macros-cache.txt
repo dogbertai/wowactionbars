@@ -61,7 +61,7 @@ VER 3 0100000000000026 "mshine" "INV_Misc_QuestionMark"
 END
 VER 3 0100000000000029 "t45" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [talent:6/2]Divine Star;Halo
+/use [spec:3,talent:6/3]Void Torrent;[spec:3]Damnation;[talent:6/2]Divine Star;Halo
 END
 VER 3 010000000000002A "t50" "INV_MISC_QUESTIONMARK"
 #showtooltip
