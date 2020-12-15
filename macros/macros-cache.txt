@@ -60,8 +60,9 @@ VER 3 0000000000000016 "grecruit" "Ability_Creature_Cursed_02"
 Don't play often? <Priestesses of Elune> is a casual levelling/heroics guild and would love to have you. ALL classes welcome. PST.
 END
 VER 3 0000000000000023 "hstone" "INV_MISC_QUESTIONMARK"
-#showtooltip
+#showtooltip Healthstone
 /use Healthstone
+/use Soulful Healing Potion
 /use Coastal Healing Potion
 /use Healing Tonic
 /use Master Healing Potion

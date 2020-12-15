@@ -1,3 +1,24 @@
+VER 3 0100000000000016 "b1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nopet]Call Pet 1
+END
+VER 3 0100000000000017 "b2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nopet]Call Pet 2;Command Pet
+END
+VER 3 0100000000000018 "b3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nopet]Call Pet 3;Fetch
+END
+VER 3 0100000000000019 "b4" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nopet]Call Pet 4
+/click PetActionButton4
+END
+VER 3 010000000000001A "b5" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [nopet]Call Pet 5;Dismiss Pet
+END
 VER 3 010000000000000C "decurse" "INV_Misc_QuestionMark"
 #showtooltip
 /use [@mouseover,harm][]Tranquilizing Shot

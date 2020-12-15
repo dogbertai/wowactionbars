@@ -23,6 +23,14 @@ VER 3 0100000000000012 "t15" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [talent:1/2]Blooddrinker;Tombstone
 END
+VER 3 0100000000000013 "t30" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:3/3]Blinding Sleet;Asphyxiate
+END
+VER 3 0100000000000014 "t45" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:6/2]Hypothermic Presence;Glacial Advance
+END
 VER 3 0100000000000011 "t50" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [talent:7/2]Summon Gargoyle;Unholy Assault

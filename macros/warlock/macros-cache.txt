@@ -37,9 +37,17 @@ VER 3 010000000000001F "t30" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [talent:3/2]Burning Rush;Dark Pact
 END
+VER 3 0100000000000021 "t35" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:4/2]Phantom Singularity;Vile Taint
+END
 VER 3 010000000000001D "t40" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [talent:5/2]Mortal Coil;Howl of Terror
+END
+VER 3 0100000000000022 "t50" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:7/2]Channel Demonfire;Dark Soul: Instability
 END
 VER 3 0100000000000017 "taunt" "INV_MISC_QUESTIONMARK"
 #showtooltip
