@@ -59,6 +59,10 @@ VER 3 0100000000000026 "mshine" "INV_Misc_QuestionMark"
 #showtooltip
 /use [@mouseover,help][]Shining Force
 END
+VER 3 010000000000002B "pi" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help][]Power Infusion
+END
 VER 3 0100000000000029 "t45" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [spec:3,talent:6/3]Void Torrent;[spec:3]Damnation;[talent:6/2]Divine Star;Halo

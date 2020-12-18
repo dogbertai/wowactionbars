@@ -42,10 +42,18 @@ VER 3 0100000000000014 "mholy" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help][]Holy Light
 END
+VER 3 0100000000000020 "mloh" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead]Lay on Hands
+END
 VER 3 0100000000000019 "mmartyr" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help][]Light of the Martyr
 /stopspelltarget
+END
+VER 3 010000000000001F "mmbop" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead]Blessing of Protection
 END
 VER 3 0100000000000016 "mprism" "INV_MISC_QUESTIONMARK"
 #showtooltip
